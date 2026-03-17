@@ -22,22 +22,31 @@ It is the short-circuit current through the load terminals. i.e., IN = Isc
 
 Norton’s Resistance, RN:It is the look-back resistance across the load terminals when all the sources are replaced by their internal resistances. An ideal voltage source is replaced by short- circuiting as its internal resistance is zero. An ideal current source is replaced by open- circuiting as its internal resistance is infinity.
  
+
 **CIRCUIT DIAGRAM: VERIFICATION OF NORTON’S THEOREM**
 
-**To measure IL**
+<img width="837" height="1280" alt="image" src="https://github.com/user-attachments/assets/c85dd1c8-2b8e-4129-8580-e07f619631e8" />
+
+<img width="761" height="1280" alt="image" src="https://github.com/user-attachments/assets/9b2ead3c-9704-4a89-9fae-c8f1d85b1482" />
 
 
-**To measure RTh or RN**
+
+**OBSERVATION TABLE:**
+
+<img width="767" height="1280" alt="image" src="https://github.com/user-attachments/assets/29144558-3ccb-43a0-b065-466dd4ad46de" />
 
 
 
-**To measure IN or Isc**
 
- 
-**Thevenin’s equivalent circuit**
+**CALCULATION:**
+
+<img width="792" height="1280" alt="image" src="https://github.com/user-attachments/assets/02043936-bc6d-488f-8b68-0b06021e23dd" />
+
+<img width="775" height="1280" alt="image" src="https://github.com/user-attachments/assets/c80f846e-ceb8-4c06-b0f5-813c3661bc73" />
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/7eb5e3f9-688e-45ec-953f-8f29d2879b15" />
 
 
-**Norton’s equivalent circuit**
 
 
 **PROCEDURE:**
@@ -70,36 +79,13 @@ Norton’s Resistance, RN:It is the look-back resistance across the load termina
 
 12.	Theoretically verify the Norton’s theorem.
 
-**TABULAR COLUMN: 1**
-To measure I L
 
-Vi (volts)	IL (amps)
+**MARK SPLITUP:**
 
-**TABULAR COLUMN:2**
+<img width="1239" height="1280" alt="image" src="https://github.com/user-attachments/assets/9d2eff5a-ac21-41eb-80cf-bbdd8a1f78f5" />
 
-To measure RTh or RN
-
-Vi (volts)	RTh (Ω)
-
-
-**TABULAR COLUMN:3**
-
-To measure IN or Isc
-
-Vi (volts)	IN (amps)
-	
-**MODEL CALCULATION:**
-
-Practical value of IL (from tabulation 1) =2.3mA
-
-**Verification of Norton’s theorem**
-
-IL = IN * RN / ( RN+ RL ) = 2.43mA
-
-Theoretical calculation of IL ,IN and RTh(RN) for the given circuit:
- 
 
 
 **RESULT:**
 
-Thus Thevenin’s and Norton’s theorem is verified practically and theoretically.
+Thus Norton’s theorem is verified practically and theoretically.
