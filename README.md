@@ -24,20 +24,31 @@ Norton’s Resistance, RN:It is the look-back resistance across the load termina
  
 **CIRCUIT DIAGRAM: VERIFICATION OF NORTON’S THEOREM**
 
-**To measure IL**
+<img width="837" height="1280" alt="image" src="https://github.com/user-attachments/assets/60a05805-d91a-4cc4-ba92-6bc8e72b6fb6" />
 
 
-**To measure RTh or RN**
+<img width="761" height="1280" alt="image" src="https://github.com/user-attachments/assets/35c74964-a99d-4fc7-9eed-31490f0b485d" />
 
 
 
-**To measure IN or Isc**
 
- 
-**Thevenin’s equivalent circuit**
+**OBSERVATION TABLE:**
+
+<img width="767" height="1280" alt="image" src="https://github.com/user-attachments/assets/05aa74be-ab5f-4bdf-99d1-a2b67886357b" />
 
 
-**Norton’s equivalent circuit**
+
+
+
+**CALCULATION:**
+
+<img width="792" height="1280" alt="image" src="https://github.com/user-attachments/assets/2f322a49-7be5-415c-a4f7-b20f82717101" />
+
+<img width="775" height="1280" alt="image" src="https://github.com/user-attachments/assets/1660dbe0-7faa-4612-bfa9-98577d3383b1" />
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/ac342bc3-aa40-42f9-8a54-c8e083a37b89" />
+
+
 
 
 **PROCEDURE:**
@@ -70,36 +81,12 @@ Norton’s Resistance, RN:It is the look-back resistance across the load termina
 
 12.	Theoretically verify the Norton’s theorem.
 
-**TABULAR COLUMN: 1**
-To measure I L
 
-Vi (volts)	IL (amps)
+**MARK SPLITUP:**
 
-**TABULAR COLUMN:2**
-
-To measure RTh or RN
-
-Vi (volts)	RTh (Ω)
-
-
-**TABULAR COLUMN:3**
-
-To measure IN or Isc
-
-Vi (volts)	IN (amps)
-	
-**MODEL CALCULATION:**
-
-Practical value of IL (from tabulation 1) =2.3mA
-
-**Verification of Norton’s theorem**
-
-IL = IN * RN / ( RN+ RL ) = 2.43mA
-
-Theoretical calculation of IL ,IN and RTh(RN) for the given circuit:
- 
+<img width="1239" height="1280" alt="image" src="https://github.com/user-attachments/assets/59453f3e-50e8-4451-b631-583de5f7bfad" />
 
 
 **RESULT:**
 
-Thus Thevenin’s and Norton’s theorem is verified practically and theoretically.
+Thus Norton’s Theorem is verified practically and theoretically.
